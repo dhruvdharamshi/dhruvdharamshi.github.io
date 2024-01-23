@@ -1,23 +1,34 @@
 #progress-container {
-    width: 100%;
-    background-color: #ddd;
-    margin: 10px 0;
-    padding: 3px;
+    width: 80%; /* Adjust the width as needed */
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px auto; /* Centered with margin */
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 #progress-bar {
-    height: 20px;
-    background-color: #000; /* or a dark grey */
-    width: 0%;
+    height: 10px; /* Thinner progress bar */
+    background: linear-gradient(to right, #4e54c8, #8f94fb); /* Gradient effect */
+    border-radius: 10px; /* Rounded corners for the progress bar */
+    width: 0%; /* Initial state */
+    transition: width 0.5s ease-in-out; /* Smooth transition for bar animation */
 }
 
 #percentage {
     text-align: center;
     font-family: 'Lato', sans-serif;
-    color: #000;
+    font-size: 1rem; /* Adjustable based on your preference */
+    color: #333; /* Dark grey color for contrast */
+    margin-top: 10px; /* Space above the percentage text */
 }
 
 body {
     font-family: 'Lato', sans-serif;
+    line-height: 1.6; /* Improved readability */
+    color: #333; /* Consistent text color */
+    max-width: 700px; /* Maximum width of the content area */
+    margin: 0 auto; /* Center the content */
     padding: 20px;
 }
