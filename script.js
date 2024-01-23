@@ -11,7 +11,7 @@ function updateProgressBar() {
     progressBar.style.width = `${percentage}%`;
 
     const percentageText = document.getElementById('percentage');
-    percentageText.textContent = `${percentage}% of 2024 completed`;
+    percentageText.textContent = `${percentage}% of 2024 has elapsed`;
 }
 
 // Update the progress bar every day
