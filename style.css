@@ -30,5 +30,5 @@ body {
     color: #333; /* Consistent text color */
     max-width: 700px; /* Maximum width of the content area */
     margin: 0 auto; /* Center the content */
-    padding: 20px;
+    #padding: 20px;
 }
