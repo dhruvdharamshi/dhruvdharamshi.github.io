@@ -5,13 +5,13 @@ function updateProgressBar() {
 
     const total = end - start;
     const progress = now - start;
-    const percentage = (progress / total) * 100;
+    const percentage = Math.round((progress / total) * 100);
 
     const progressBar = document.getElementById('progress-bar');
     progressBar.style.width = `${percentage}%`;
 
     const percentageText = document.getElementById('percentage');
-    percentageText.textContent = `${percentage.toFixed(2)}% of 2024 completed`;
+    percentageText.textContent = `${percentage}% of 2024 completed`;
 }
 
 // Update the progress bar every day
