@@ -1,22 +1,23 @@
 #progress-container {
     width: 100%;
     background-color: #ddd;
-    border-radius: 5px;
     margin: 10px 0;
+    padding: 3px;
 }
 
 #progress-bar {
     height: 20px;
-    background-color: #4caf50;
-    border-radius: 5px;
+    background-color: #000; /* or a dark grey */
     width: 0%;
 }
 
 #percentage {
     text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #000;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 20px;
 }
