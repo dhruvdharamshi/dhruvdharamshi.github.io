@@ -1,6 +1,6 @@
 #progress-container {
     width: 100%; /* Full width of the container */
-    background-color: #e0e0e0; /* Light grey background, matching the color scheme of your site */
+    background-color: #EBECED; /* Light grey background, matching the color scheme of your site */
     height: 20px; /* Set a fixed height for the container */
     border-radius: 10px; /* Smooth, rounded corners for a modern look */
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle inner shadow for depth */
@@ -10,7 +10,7 @@
 
 #progress-bar {
     height: 20px; /* Full height of the container */
-    background-color: #3f51b5; /* A deep blue to match your site's theme */
+    background-color: #FF6484; /* A deep blue to match your site's theme */
     width: 0%; /* Initial width which will be set by JS */
     border-radius: 10px; /* Rounded corners for the filled part of the bar */
     transition: width 0.25s ease-in-out; /* Smooth transition for bar animation */
