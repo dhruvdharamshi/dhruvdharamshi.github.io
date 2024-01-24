@@ -28,6 +28,6 @@ body {
     font-family: 'Lato', sans-serif; /* Consistent font throughout the page */
     line-height: 1.6; /* Adequate line height for readability */
     color: #333; /* Dark grey color for the text */
-    padding: 20px; /* Padding around the content */
+    padding: 0 20px; /* Padding around the content */
     background: #fff; /* White background to match your website */
 }
