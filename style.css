@@ -5,6 +5,7 @@
     border-radius: 10px; /* Smooth, rounded corners for a modern look */
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle inner shadow for depth */
     overflow: hidden; /* Ensures the inner bar stays within the rounded corners */
+    margin-bottom: 20px;
 }
 
 #progress-bar {
